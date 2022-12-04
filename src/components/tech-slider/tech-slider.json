@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_tech_slider_tech_sliders",
+  "info": {
+    "displayName": "techSlider"
+  },
+  "options": {},
+  "attributes": {
+    "techSlide": {
+      "displayName": "techSlide",
+      "type": "component",
+      "repeatable": true,
+      "component": "tech-slider.tech-slide"
+    }
+  }
+}

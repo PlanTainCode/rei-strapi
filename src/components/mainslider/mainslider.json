@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_mainslider_mainsliders",
+  "info": {
+    "displayName": "Mainslider"
+  },
+  "options": {},
+  "attributes": {
+    "Mainslide": {
+      "displayName": "Mainslide",
+      "type": "component",
+      "repeatable": true,
+      "component": "mainslider.mainslide"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_mainslider_mainslides",
+  "info": {
+    "displayName": "Mainslide"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Pic": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

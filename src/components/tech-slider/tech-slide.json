@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_tech_slider_tech_slides",
+  "info": {
+    "displayName": "techSlide"
+  },
+  "options": {},
+  "attributes": {
+    "Pic": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

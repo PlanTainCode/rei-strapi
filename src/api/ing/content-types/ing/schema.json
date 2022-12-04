@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "ings",
+  "info": {
+    "singularName": "ing",
+    "pluralName": "ings",
+    "displayName": "Ing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Headof": {
+      "type": "component",
+      "repeatable": false,
+      "component": "headof.headof"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

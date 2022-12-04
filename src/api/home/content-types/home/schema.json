@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Mainslider": {
+      "displayName": "Mainslider",
+      "type": "component",
+      "repeatable": false,
+      "component": "mainslider.mainslider"
+    },
+    "misTitle": {
+      "type": "string"
+    },
+    "misDescription": {
+      "type": "string"
+    },
+    "Missiont": {
+      "displayName": "Missiont",
+      "type": "component",
+      "repeatable": false,
+      "component": "missiont.missiont"
+    },
+    "hrefMis": {
+      "type": "string"
+    },
+    "newsTitle": {
+      "type": "string"
+    },
+    "newsHref": {
+      "type": "string"
+    },
+    "valuesTitle": {
+      "type": "string"
+    },
+    "valueSlider": {
+      "displayName": "valueSlider",
+      "type": "component",
+      "repeatable": false,
+      "component": "value-slider.value-slider"
+    },
+    "techTitle": {
+      "type": "string"
+    },
+    "techSlider": {
+      "displayName": "techSlider",
+      "type": "component",
+      "repeatable": false,
+      "component": "tech-slider.tech-slider"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ingticles",
+  "info": {
+    "singularName": "ingticle",
+    "pluralName": "ingticles",
+    "displayName": "ingticle",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Pic": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Main": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

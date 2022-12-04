@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_missiont_missions",
+  "info": {
+    "displayName": "Mission"
+  },
+  "options": {},
+  "attributes": {
+    "Pic": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}

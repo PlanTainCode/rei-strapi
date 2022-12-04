@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_headof_headofs",
+  "info": {
+    "displayName": "Headof"
+  },
+  "options": {},
+  "attributes": {
+    "Pic": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "preTitle": {
+      "type": "string"
+    },
+    "preHref": {
+      "type": "string"
+    }
+  }
+}

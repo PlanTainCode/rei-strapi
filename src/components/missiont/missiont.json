@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_missiont_missionts",
+  "info": {
+    "displayName": "Missiont"
+  },
+  "options": {},
+  "attributes": {
+    "Mission": {
+      "displayName": "Mission",
+      "type": "component",
+      "repeatable": true,
+      "component": "missiont.mission"
+    }
+  }
+}
